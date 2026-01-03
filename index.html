@@ -13,6 +13,21 @@
       <div class="status" id="status">Ваш ход: X</div>
     </header>
 
+    <section class="scoreboard" aria-label="Счет игры">
+      <div class="score-item">
+        <span class="score-label" id="score-player-label">Вы (X)</span>
+        <span class="score-value" id="score-player">0</span>
+      </div>
+      <div class="score-item">
+        <span class="score-label" id="score-ai-label">ИИ (O)</span>
+        <span class="score-value" id="score-ai">0</span>
+      </div>
+      <div class="score-item">
+        <span class="score-label">Ничьи</span>
+        <span class="score-value" id="score-draw">0</span>
+      </div>
+    </section>
+
     <section class="board" id="board" aria-label="Игровое поле 3 на 3">
       <button class="cell" data-index="0" aria-label="ячейка 1"></button>
       <button class="cell" data-index="1" aria-label="ячейка 2"></button>
